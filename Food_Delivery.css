@@ -1,0 +1,117 @@
+ /* search section  */
+.search-banner{
+    background-image: url("photo/Preset.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 17%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    max-width: 815px;
+  }
+
+  .search-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+  }
+
+  .search-button {
+    width: 136px;
+    height: 56px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #f40469;
+    cursor: pointer;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+  /* button */
+  .button {
+    background-color: #f40469;
+    border: none;
+    color: white;
+    width: 246px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  /* food delivery help  */
+  .image-container {
+    position: relative;
+    width: 100%;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .button1 {
+    background-color: #283646;
+    border: none;
+    color: white;
+    width: 246px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+  .button2 {
+    border: none;
+    color: rgb(249, 245, 245);
+    width: 246px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50px;
+  }
+
+  .button:hover {
+    background-color: #d1025d;
+  }
